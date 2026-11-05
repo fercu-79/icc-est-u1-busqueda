@@ -19,7 +19,7 @@ public class App {
         // Imprima laposicion de la persona si la encontro
 
         BusquedaLineal busqueda = new BusquedaLineal(personas);
-        Busqueda findByName = new Busqueda();
+        
         Persona personaEncontrada = busqueda.findByname("Maria");
         if (personaEncontrada != null) {
             System.out.println("Persona encontrada: " + personaEncontrada.getNombre() + ", Edad: " + personaEncontrada.getEdad() + ", Genero: " + personaEncontrada.getGenero());

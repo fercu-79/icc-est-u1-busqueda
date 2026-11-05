@@ -19,13 +19,13 @@ public class BusquedaLineal{
             }
         }
         return null;
-    }
+    }   
 
     //BUSQUE LA POS DE UNA PERSONA
     // RETORNE LAS POS PERSONA SI LO ENCUENTRA
     // RETORNE -1 SI NO LO ENCUENTRA
     public int findPosByName(String nombre){
-        
+
 
         for (int i = 0; i < personas.size(); i++){
             if (personas.get(i).getNombre().equals(nombre)){
